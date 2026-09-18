@@ -1,21 +1,18 @@
-# 📚 Perpustakaan Online (Library Online) - AI Prototype
+# Perpustakaan Online (Library Online) - AI Prototype
 
 Selamat datang di repositori **Perpustakaan Online**, sebuah prototipe aplikasi perpustakaan modern berbasis web yang dibangun dengan antarmuka yang dinamis, menarik, dan interaktif. Proyek ini dilengkapi dengan integrasi asisten cerdas (AI Chatbot) untuk membantu pengunjung menemukan buku yang mereka cari.
 
-## 🚀 Fitur dan Sistem Utama
+## Fitur dan Sistem Utama
 
 Aplikasi ini memiliki beberapa sistem dan fitur yang telah diimplementasikan:
 
-### 1. 🔐 Sistem Autentikasi (Login)
+### 1. Sistem Autentikasi (Login)
 
 - Halaman login yang modern dan responsif.
 - Validasi form di sisi klien (Client-side validation):
-  - Memastikan email dan password tidak kosong.
-  - Memastikan format email valid (mengandung karakter `@`).
-  - Memastikan panjang password minimal 6 karakter.
 - Umpan balik error (Error feedback) visual jika data tidak sesuai.
 
-### 2. 🏠 Halaman Beranda (Home / Dashboard)
+### 2. Halaman Beranda (Home / Dashboard)
 
 - **Hero Section & Statistik:** Menampilkan ucapan selamat datang beserta statistik perpustakaan seperti total koleksi buku, jumlah anggota aktif, dan rating perpustakaan secara visual.
 - **Sistem Pencarian Buku (Search Engine):**
@@ -24,13 +21,13 @@ Aplikasi ini memiliki beberapa sistem dan fitur yang telah diimplementasikan:
 - **Katalog Buku:** Menampilkan daftar rekomendasi buku menggunakan desain `BookCard` yang rapi dan terstruktur dalam bentuk grid. Data buku saat ini menggunakan _mock data_ statis.
 - **Animasi & Transisi:** Dilengkapi efek kemunculan elemen yang halus ketika halaman pertama kali dimuat (fade-in, transform).
 
-### 3. 🤖 Sistem Chatbot AI (Voiceflow Integration)
+### 3. Sistem Chatbot AI (Voiceflow Integration)
 
 - Aplikasi ini terintegrasi dengan **Voiceflow**, sebuah platform AI conversational.
 - Terdapat widget chatbot mengambang di halaman beranda yang siap membantu pengguna menavigasi informasi atau sekadar berinteraksi.
 - Modul ini ditangani secara modular di komponen `ChatBot.jsx`.
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 Proyek ini menggunakan teknologi web modern untuk memastikan performa yang cepat dan pengalaman pengguna yang maksimal:
 
@@ -40,7 +37,7 @@ Proyek ini menggunakan teknologi web modern untuk memastikan performa yang cepat
 - **Icons:** [Lucide React](https://lucide.dev/) - Untuk ikon-ikon antarmuka seperti pencarian, pengguna, dll.
 - **Chatbot Integrasi:** [Voiceflow Widget](https://www.voiceflow.com/)
 
-## 📂 Struktur Folder
+## Struktur Folder
 
 ```text
 /
@@ -61,7 +58,7 @@ Proyek ini menggunakan teknologi web modern untuk memastikan performa yang cepat
 └── ... file konfigurasi (package.json, vite.config.js, dll)
 ```
 
-## 🏃 Cara Menjalankan Proyek Secara Lokal
+## Cara Menjalankan Proyek Secara Lokal
 
 Jika Anda ingin menjalankan proyek ini di komputer Anda sendiri, ikuti langkah-langkah berikut:
 
